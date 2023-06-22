@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#800000"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textSize="35sp"
+            android:textColor="#696969"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/numeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Aceasta aplicatie a fost facuta pentru un proiect scolar de catre Ghita Darius-Filip si Alexandresu Marian"
+        android:textColor="#696969"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grupa: 364"
+        android:textSize="20sp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:layout_below="@id/numeTextView"
+        android:layout_marginTop="16dp"
+        android:id="@+id/ageTextView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An: III"
+        android:textSize="20sp"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:layout_below="@id/ageTextView"
+        android:layout_marginTop="16dp"
+        android:id="@+id/inaltimeTextView"/>
+
+    <TextView
+        android:id="@+id/greutateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inaltimeTextView"
+        android:layout_marginTop="16dp"
+        android:text="Specializare: CTI"
+        android:textColor="#696969"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#800000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="163dp"
+        android:clickable="true"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="goBack"
+        android:text="Back"
+        android:textColor="#696969"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
